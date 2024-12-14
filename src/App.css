@@ -1,0 +1,103 @@
+
+  /* customStyles.css */
+  .bg-grid-custom {
+    background-size: 50px 50px; /* Adjust the size here */
+  }
+
+  .join-us-button {
+  box-shadow: inset 0 4px 4px rgba(255, 255, 255, 0.5);
+}
+.text-brightness-20 {
+  filter: brightness(20%);
+}
+body {
+  overflow-x: hidden;
+  
+  
+}
+
+.orbiting-circles {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border-radius: 50%;
+  background: radial-gradient(circle, #0b0f19, #0b0f19 80%, transparent 100%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.orbiting-circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #333;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.orbiting-circle-1 {
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.orbiting-circle-2 {
+  top: 50%;
+  right: 20%;
+  transform: translate(50%, -50%);
+}
+
+.orbiting-circle-3 {
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.orbiting-circle-4 {
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.orbiting-circle-5 {
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.orbiting-circles-demo {
+  background-color: #0b0f19;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.circle-content {
+  width: 80px;
+  height: 80px;
+  background-color: #1e1e2f;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+  @keyframes beamMove {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
