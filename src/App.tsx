@@ -31,11 +31,11 @@ const App: React.FC = () => {
       <ArcCards />
     </div>
     <div className='relative '>
-    <div className='relative -top-72 md:-top-36 -mt-[38.6rem] md:-mt-[11.6rem] '>
+    <div className='relative -top-80 md:-top-36 -mt-[38.6rem] md:-mt-[11.6rem] '>
    <GridBackgroundDemo/></div> 
    <div className='relative'>
    <Footer/></div>
-   <div className='relative -mt-80'>
+   <div className='relative -mt-96'>
    <ContactSection/> </div>
    </div>
    
