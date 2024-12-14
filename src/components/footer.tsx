@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <footer className="-mt-48 w-full bg-[#0b0c1d] py-4 px-4 md:px-12 lg:px-52 text-white relative border-t border-white/5">
+    <footer className="-mt-56 w-full bg-[#0b0c1d] py-4 px-4 md:px-12 lg:px-52 text-white relative border-t border-white/5">
       {/* Grid Background */}
       <div className="absolute inset-0 grid grid-cols-12 grid-rows-1 pointer-events-none">
         {Array.from({ length: 12 }).map((_, i) => (
