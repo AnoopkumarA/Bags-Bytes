@@ -27,7 +27,7 @@ const App: React.FC = () => {
       <div className="App relative -top-[25.4rem] md:-top-[14rem]">
       <Gallery />
     </div>
-    <div className="min-h-screen -top-[34rem] md:-top-32 relative">
+    <div className="min-h-screen -top-[39rem] md:-top-32 relative">
       <ArcCards />
     </div>
     <div className='relative '>
